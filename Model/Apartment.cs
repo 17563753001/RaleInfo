@@ -19,5 +19,7 @@ namespace Model
         /// 户型名称
         /// </summary>
         public string Apartment_Name { get; set; }
+
+        public string Apartmen { get; set; }
     }
 }
