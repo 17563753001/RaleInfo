@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Model;
+namespace BLL
+{
+    /// <summary>
+    /// 房屋
+    /// </summary>
+    public class HouseBLL
+    {
+        public int Add(HouseInfo t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Del<I>(I id) where I : struct
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Upt(HouseInfo t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<HouseInfo> Show()
+        {
+            throw new NotImplementedException();
+        }
+
+        public HouseInfo GetShowById<I>(I id) where I : struct
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
